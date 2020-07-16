@@ -1,2 +1,10 @@
 Dummy file.
 Please see: https://github.com/abishekvashok/cmatrix
+
+fix error install & buld
+when install
+./configure
+make
+sudo make install
+--> fix
+# aclocal && autoheader && automake --add-missing && autoconf
